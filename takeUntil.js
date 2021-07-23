@@ -2,11 +2,11 @@ const takeUntil = function(array, callback) {
   let someArray = [];
   for (let item of array) {
     if (callback(item) === true) {
-      return someArray; 
+      return someArray;
     }
-    someArray.push(item)
+    someArray.push(item);
   }
-}
+};
 
 // TEST CODE
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
