@@ -1,5 +1,5 @@
 // test for assertEqaul.js
-const assertEqual = require('../assertEqual.js')
+const assertEqual = require('../assertEqual.js');
 
 // TEST CODE
 assertEqual("Lighthouse Labs", "Bootcamp");
