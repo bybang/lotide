@@ -1,4 +1,4 @@
-// modified tailTest with mocha and chai
+// modified middleTest with mocha and chai
 const assert = require('chai').assert;
 const middle   = require('../middle');
 
