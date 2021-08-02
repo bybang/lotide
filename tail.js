@@ -17,4 +17,4 @@ const tail = function(someArray) {
   return exceptFirstNum;
 };
 
-module.exports = tail
+module.exports = tail;

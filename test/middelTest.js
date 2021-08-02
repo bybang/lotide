@@ -9,4 +9,4 @@ describe('#middle', () => {
   it("returns ['I', 'am'] for ['Hola', 'I', 'am', 'Korean']", () => {
     assert.deepEqual(middle(['Hola', 'I', 'am', 'Korean']), ['I', 'am']);
   });
-})
+});
